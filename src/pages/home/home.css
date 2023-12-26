@@ -1,0 +1,383 @@
+
+/* Section 1 css  */
+
+
+.feature-div {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .feature-div h2 {
+    font-family: fraunces, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 80px;
+    color: #1d2927;
+  }
+  
+  .feature-card {
+    /* border: 1px solid black; */
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .feature-card h3 {
+    font-family: fraunces, serif;
+    font-style: italic;
+    line-height: 39px;
+    font-size: 1.75rem;
+    margin: 2rem 0;
+  }
+  
+  .feature-link {
+    font-family: fraunces, serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    font-style: normal;
+  }
+  
+  .feature-slider {
+    /* border: 1px solid red; */
+    padding: 0 12rem;
+  }
+  
+  .second-div {
+    background: #1D2927;
+    color: #fff;
+  }
+  
+  .second-inner {
+    padding: 5rem;
+  }
+  
+  .second-inner h2 {
+    font-family: fraunces, serif;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 0 6rem;
+    font-size: 45px;
+  
+  }
+  
+  .second-inner p {
+    font-family: 'lato-light', 'lato', sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    font-style: italic;
+  }
+  
+  .break-line {
+    width: 4rem;
+    font-weight: 600;
+    border: 1px solid;
+    color: #fff;
+  }
+  
+  
+  .second-inner span {
+    font-family: avenir-lt-w01_85-heavy1475544, avenir-lt-w05_85-heavy, sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  /* .section-wrapper{
+    padding: 2rem 0;
+  } */
+  
+  
+  .second-section-div {
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .second-section-div h2 {
+    padding: 0 18rem;
+    font-family: fraunces, serif;
+    font-weight: 400;
+    font-size: 2.3rem;
+    font-style: normal;
+    /* line-height: 30px; */
+  }
+  
+  .second-slider {
+    overflow: hidden;
+  }
+  
+  .image-div {
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+    margin: 2rem 1rem;
+  }
+  
+  .image-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 2s ease;
+  }
+  
+  
+  .image-div img:hover {
+    transform: scale(1.2);
+  }
+  
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  .activity-btn {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #014235;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 2rem;
+    border: 1px solid #014235;
+    transition: .5s;
+  }
+  
+  .activity-btn:hover {
+    background-color: #fff;
+    color: #014235;
+  }
+  
+  /* section 3 Start  */
+  
+  .number-section {
+    background: #1D2927;
+    padding-top: 2rem;
+  }
+  
+  .number-div {
+    color: #FFFFFF;
+    padding: 0 10rem;
+  }
+  
+  
+  .number-div p {
+    font-family: lato-light;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+  }
+  
+  .number-div h2 {
+    font-size: 40px;
+    font-family: fraunces, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  
+  .counters-div {
+    margin: 1rem 0;
+  }
+  
+  .counters-div div {
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
+  .counters-div div h3 {
+    font-size: 60px;
+    font-style: normal;
+    font-family: fraunces, serif;
+    font-weight: 400;
+  }
+  
+  
+  .counters-div div p {
+    font-size: 13px;
+    font-style: italic;
+    font-family: lato-light, lato, sans-serif;
+    font-weight: 400;
+  }
+  
+  .section-third {
+    background: #014235;
+    padding: 2rem 0;
+  }
+  
+  .founder-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000000;
+  }
+  
+  .founder-details-div {
+    padding: 0 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .founder-details-div h2 {
+    font-family: fraunces, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d2927;
+    line-height: 50px;
+    font-size: 45px;
+  }
+  
+  
+  .founder-details-div p {
+  
+    font-family: lato-light, lato, sans-serif;
+    /* font-weight: 400; */
+    font-style: normal;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 25px;
+    color: #000000;
+  }
+  
+  .founder-imf-div {
+    padding: 0;
+  }
+  
+  .founder-imf-div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .social-icons .social-link {
+    background-color: #000000;
+    color: #fff;
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  @media screen and (min-width:1024px) and (max-width:1200px) {
+    .founder-details-div {
+      padding: 1rem 2rem;
+    }
+  }
+  
+  @media screen and (min-width:768px) and (max-width:1023px) {
+    .feature-slider {
+      padding: 0 5rem;
+    }
+  
+    .second-inner h2 {
+      padding: 0;
+    }
+  
+  
+    .second-section-div h2 {
+      padding: 0 5rem;
+    }
+  
+    .founder-details-div {
+      padding: 1rem 2rem;
+    }
+  
+    .founder-details-div h2 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  
+    .number-div {
+      padding: 0 2rem;
+    }
+  
+  
+  
+  }
+  
+  
+  @media screen and (max-width:767px) {
+  
+    .feature-div h2 {
+      font-family: fraunces, serif;
+      font-weight: 500;
+      font-style: normal;
+      font-size: 38px;
+      line-height: 60px;
+    }
+  
+    .feature-slider {
+      padding: 0;
+    }
+  
+    .second-inner h2 {
+      padding: 0;
+    }
+  
+    .second-inner {
+      padding: 2rem;
+    }
+  
+  
+    .second-section-div h2 {
+      padding: 0;
+      font-size: 2rem;
+    }
+  
+    .founder-details-div {
+      padding: 1rem;
+  
+    }
+  
+    .founder-details-div h2 {
+      line-height: 44px;
+      font-size: 38px;
+    }
+  
+    .section-third {
+      background: transparent;
+      padding: 2rem 0;
+    }
+  
+    .number-div {
+      padding: 1rem;
+    }
+  
+    .number-div h2 {
+      font-size: 35px;
+      line-height: normal;
+    }
+  
+  
+    .counters-div div h3 {
+      font-size: 45px;
+  
+    }
+  
+    .counters-div div {
+      padding: 0;
+    }
+  
+    .number-div p{
+      margin-bottom: 0;
+    }
+  }
