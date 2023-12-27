@@ -7,7 +7,7 @@ import Slider from "react-slick";
 
 import image from '../Assests/Images/image.webp'
 // import image1 from '../Assests/Images/image1.webp'
-import image2 from '../Assests/Images/image2.webp'
+import image2 from '....//Assests/Images/image2.webp'
 import image3 from '../Assests/Images/image3.webp'
 import image4 from '../Assests/Images/image4.webp'
 import image5 from '../Assests/Images/image5.webp'

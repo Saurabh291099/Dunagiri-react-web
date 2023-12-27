@@ -1,6 +1,7 @@
 import React from 'react'
 import FeatureCard from './FeatureCard'
-import featurelogo from '../Assests/Images/logo-cnntravel.webp'
+import featurelogo from '../../assets/images/logo-cnntravel.webp'
+import  './home.css'
 
 import Slider from "react-slick";
 const Section1 = (props) => {
